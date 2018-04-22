@@ -131,7 +131,7 @@ strong {
 }
 
 img {
-  position: relative;
+  position: center;
   margin: 0 auto;
   max-width: 739px;
   padding: 5px;
@@ -260,7 +260,7 @@ Full-Width Styles
 }
 
 .inner {
-  position: relative;
+  position: center;
   max-width: 640px;
   padding: 20px 10px;
   margin: 0 auto;
@@ -268,7 +268,7 @@ Full-Width Styles
 
 #forkme_banner {
   display: block;
-  position: absolute;
+  position: center;
   top:0;
   right: 10px;
   z-index: 10;
@@ -311,7 +311,7 @@ Full-Width Styles
 }
 
 #downloads {
-  position: absolute;
+  position: center;
   width: 210px;
   z-index: 10;
   bottom: -40px;
