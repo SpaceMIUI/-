@@ -132,7 +132,6 @@ img {
   position: relative;
   margin: auto;
   max-width: 739px;
-  border: 1px solid #ebebeb;
   display: block;
   text-align: center;
   display: block;
@@ -163,9 +162,6 @@ pre, code {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 14px;
 
-  border-radius: 2px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
 }
 
 pre {
@@ -177,7 +173,6 @@ pre {
 code {
   padding: 3px;
   margin: 0 3px;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 
 pre code {
