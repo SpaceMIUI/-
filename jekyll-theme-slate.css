@@ -680,7 +680,8 @@ Small Device Styles
   background-color: #f8f8f8;
 }
 .center {
-    margin: auto;
+    margin-left:auto; 
+    margin-right:auto;
     width: 30%;
     height: 380px
     padding: 10px;
@@ -690,9 +691,19 @@ Small Device Styles
     margin-right:auto;
   }
   iframe.center {
-	  margin-left:auto; 
-      margin-right:auto;
+	margin-left:auto; 
+    margin-right:auto;
   }
   nav ul {
 	  list-style-type:none;
-	  
+	  background-color:#828282;
+	  border: 2px solid #ffffff;
+	  padding: 32px;
+  }
+  nav ul li {
+	  display-inline;
+  }
+  nav ul li a {
+	  text-decoration:none;
+      color:#ffffff;
+  }
