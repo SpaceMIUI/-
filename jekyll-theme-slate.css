@@ -680,7 +680,8 @@ Small Device Styles
 }
 .center {
     margin: auto;
-    width: 50%;
+    width: 30%;
+    height: 380px
     padding: 10px;
 }
   table.center {
