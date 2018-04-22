@@ -688,3 +688,6 @@ Small Device Styles
     margin-left:auto; 
     margin-right:auto;
   }
+  nav ul {
+	  list-style-type:none;
+	  
