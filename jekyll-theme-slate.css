@@ -131,8 +131,8 @@ strong {
 }
 
 img {
-  position: center;
-  margin: 0 auto;
+  position: relative;
+  margin: auto;
   max-width: 739px;
   padding: 5px;
   margin: 10px 0 10px 0;
@@ -140,6 +140,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  vertical-align: middle;
+  text-align: center;
   width: 40%;
 
   box-shadow: 0 0 5px #ebebeb;
