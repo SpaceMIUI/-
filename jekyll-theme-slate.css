@@ -461,6 +461,26 @@ Small Device Styles
   h6 {
     font-size: 12px;
   }
+    table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  iframe.center {
+	margin-left:auto; 
+    margin-right:auto;
+  }
+  nav ul {
+	  list-style-type:none;
+	  border: 2px solid #ffffff;
+	  padding: 32px;
+  }
+  nav ul li {
+	  display-inline;
+  }
+  nav ul li a {
+	  text-decoration:none;
+      color:#ffffff;
+  }
 
   code, pre {
     min-width: 240px;
@@ -686,24 +706,4 @@ Small Device Styles
     height: 380px
     padding: 10px;
 }
-  table.center {
-    margin-left:auto; 
-    margin-right:auto;
-  }
-  iframe.center {
-	margin-left:auto; 
-    margin-right:auto;
-  }
-  nav ul {
-	  list-style-type:none;
-	  background-color:#828282;
-	  border: 2px solid #ffffff;
-	  padding: 32px;
-  }
-  nav ul li {
-	  display-inline;
-  }
-  nav ul li a {
-	  text-decoration:none;
-      color:#ffffff;
-  }
+
